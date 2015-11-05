@@ -17,25 +17,25 @@ int main()
 		cin >> z;
 		if (z == 1) {
 			cin >> y;
-			cout << x + y;
+			cout << x + y << endl;
 		}
 		if (z == 2) {
 			cin >> y;
-			cout << x - y;
+			cout << x - y << endl;
 		}
 		if (z == 3) {
 			cin >> y;
-			cout << x*y;
+			cout << x*y << endl;
 		}
 		if (z == 4) {
 			cin >> y;
 			value = 1;
 			for (i = 1; i <= y; i++)value = value*x;
-			cout << value;
+			cout << value << endl;
 		}
 		if (z == 5) {
 			cin >> y;
-			cout << "To ypolipo einai" << x%y;
+			cout << "To ypolipo einai" << x%y << endl;
 		}
 		if (z == 6) {
 			for (i = 1; i <= 10; i++)
